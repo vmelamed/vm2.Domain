@@ -13,11 +13,17 @@
 
 ## What This Package Does
 
-*TODO* One-paragraph description of the package's purpose and the problem it solves.
+Contains:
+- abstractions for Domain-Driven Design (DDD) entities, values, aggregates
+- abstractions for some infrastructural concerns
+- some base implementations of the abstractions
 
 Key design decisions:
 
-- *TODO*
+- The concept entity is captured on two levels:
+  1. Non-generic `IEntity` interface, requiring a unique identifier for the entity, with the identifier accessed as an `object`.
+     Allows the entity to be used in contexts where the specific type of the identifier is unimportant or is not known. It can be used as a "marker" interface.
+  1. Generic `IEntity<TEntityId>` interface inherits from the non-generic `IEntity` interface, and provides type-safe access to the unique identifier of the entity.
 
 ## Common Local Commands
 

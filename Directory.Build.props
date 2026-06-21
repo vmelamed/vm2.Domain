@@ -266,6 +266,7 @@
 
     <ItemGroup>
         <!-- ADD REPO-SPECIFIC PACKAGE REFERENCES HERE -->
+        <PackageReference Include="FluentValidation" />
     </ItemGroup>
 
 </Project>
