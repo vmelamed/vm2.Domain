@@ -11,7 +11,6 @@ public interface IEntity
     /// <summary>
     /// The unique identifier for the entity.
     /// </summary>
-    [NotNull]
     object Id { get; }
 }
 
