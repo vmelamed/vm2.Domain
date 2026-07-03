@@ -69,7 +69,7 @@ env:
     ]
   PACKAGE_PROJECTS: >-
     [
-    "src/MyPackage/MyPackage.csproj"
+    "src/Domain/Domain.csproj"
     ]
   RUNNERS_OS: >-
     [
