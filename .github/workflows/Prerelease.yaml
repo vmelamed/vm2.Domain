@@ -32,7 +32,7 @@ on:
 env:
   PACKAGE_PROJECTS: >-
     [
-    "src/Domain/Domain.csproj"
+    "src/MyPackage/MyPackage.csproj"
     ]
   PREPROCESSOR_SYMBOLS: ""
   NUGET_SERVER: ${{ vars.NUGET_SERVER || 'nuget' }}
